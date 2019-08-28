@@ -1,0 +1,257 @@
+/* * {outline: 2px red dashed} */
+
+.container{
+    height: 900px;
+    width: 741px;
+    padding: 0px;
+    border: 0px;
+    margin: 0 auto;
+    /* background-image: url("img/MainPage.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: black;
+
+}
+
+.container *{
+    /* opacity: 0.75; */
+    margin: 0 auto;
+}
+
+/* headder Section */
+
+.header {
+    width: 741px;
+    height: 87px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+    background: black;
+}
+
+
+.stacking {
+    vertical-align: top;
+    display: inline-block; 
+    width: 165px;
+    padding: 15px 0px 0px 17px;  
+}
+
+.callus {
+    width: 121px;
+    height: 20px;
+    padding: 0px;
+    border: 0px;
+    margin: 26px 0px 0px 422px;
+    vertical-align: top;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation section */
+
+.navigation {
+    width: 741px;
+    height: 33px;
+    background: linear-gradient(#505050, black);
+    vertical-align: top;
+    margin: 0px;
+}
+
+.nb {
+    vertical-align: top;
+    display: inline-block;
+    height: 20px;
+    width: 89px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 8px 0px 0px 10px;
+    border-right: 2px black solid;
+}
+
+.nc {
+    vertical-align: top;
+    display: inline-block;
+    height: 20px;
+    width: 189px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 8px 0px 0px 10px;
+    padding: 8px 0px 0px 10px;
+    border-right: 2px black solid;
+}
+
+/* Image Section */
+
+.nap {
+    width: 741px;
+}
+
+/* Sub-Picture Section */
+
+.subpic {
+    Width: 720px;
+    height: 93px;
+    padding: 23px 0px 0px 21px;
+    border: 0px;
+    margin: 0px;
+    background: #1b1b1b;
+}
+
+.sq {
+    width: 175px;
+    height: 93px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.icon {
+    width: 35px;   
+    vertical-align: top;
+    display: inline-block;   
+}
+
+.ot {
+    color: #aa501c;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.wt {
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left:44px;
+}
+
+/* Buy Now Section */
+.buynow {
+    Width: 741px;
+    height: 92px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background: url(img/Screen\ Shot\ 2019-08-26\ at\ 1.39.29\ PM.png);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.tb {
+    width: 500px;
+    height: 92px;
+    margin: 25px 0px 0px 32px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.bfvuf {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+.praesent {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 6px;
+    height: 30px;
+    width: 466px;
+}
+
+.bn {
+    width: 78px;
+    height: 20px;
+    padding: 6px;
+    background-color: #d0752a;
+    margin: 38px 0px 0px 83px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px
+}
+
+/* Portfolio Section */
+.portfolio {
+    width: 721px;
+    height: 273px;
+    background: black;
+    margin: 0px 0px 0px 20px;
+}
+
+.pt {
+    vertical-align: top;
+    display: inline-block;
+    color: white;
+    margin: 10px 556px 0px 0px;
+}
+
+.vap {
+    color: orange;
+    vertical-align: top;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 14px 0px 0px 10px;
+}
+.pb {
+    width: 163px;
+    height: 198px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+
+.pi {
+    width: 159px;
+    border: 2px gray solid;
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+
+}
+
+.pot {
+    color: orange;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.pwt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.pc {
+    width: 163px;
+    height: 198px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.btt {
+    color: white;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    display: inline-block;
+    margin: 19px 0px 0px 663px;
+    opacity: .75;
+}

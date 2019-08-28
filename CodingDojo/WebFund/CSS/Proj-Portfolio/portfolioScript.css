@@ -1,0 +1,214 @@
+/* * {outline: 2px red dashed} */
+
+.container{
+    width: 750px;
+    height: 800px;
+    margin: 0 auto;
+`
+}
+
+.container *{
+    opacity: 1;
+    /* outline: red 5px solid; */
+}
+
+.header{
+    height: 50px;
+    width: 745px; 
+    margin: 0px;
+    background-color:rgb(246,246,246);
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1{
+    font-family: "Comic Sans MS";
+    color:black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 9px 200px 10px 20px;
+    font-size: 25px;  
+}
+
+.masters{
+    height:45px;
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 14px 0px 1px 80px;
+}
+
+.body{
+    height: 755px;
+    width: 745px;
+    padding: 0px 0px 0px 10px;
+    border: 5px;
+    margin: 0px 10px 11px 0px;
+    /* margin: top right bottom left */
+    background: radial-gradient(#6f5964, black);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.profPic {
+    width: 310px;
+    height: 200px;
+    border: 5px solid rgb(221,221,221);
+    Padding: 1px; 
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.about {
+    width: 350px;
+    height: 210px;
+    padding:0px;
+    border: 5px;
+    margin-top: 21px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    display:inline-block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+    
+.aboutTop {
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    width: 343px;
+    height: 25px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(white, black); 
+}
+
+.TopBoxText {
+    width: 340px;
+    height: 43px;
+    padding: 8px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxText {
+    width: 220px;
+    height: 100px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.boxTop {
+    width: 217px;
+    height: 25px;
+    margin: 0px;
+}
+
+.boxMid {
+    width: 217px;
+    height: 25px;
+    margin: 0px;
+    
+}
+.box-1, .box-2, .box-3{
+    display: inline-block;
+    height: 480px;
+    width: 222px;
+    margin: 10px;
+    background: white;
+    opacity: .75;
+    vertical-align: top;
+}
+
+.picLamode, .picFamily, .picFive{
+    width: 160px;
+    height: 105px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.stackContainer {
+    height: 76px;
+    padding: 5x;
+    border: 0px;
+    margin: 5px;
+}
+.stack {
+    height: 35px;
+    padding: 0x;
+    border: 0px;
+    margin: 0px;
+  
+}
+
+.p3 {
+    
+    padding: 5;
+    margin: 30px;
+    background:#407c61;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bb{
+    width: 222px;
+    height: 83px;
+}
+
+.bottom {
+    width: 750px;
+    height: 47px;
+    margin-top: 20;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center; 
+}
+
+.contactinfo {
+    margin: 10px 0px 0px 275px;
+}
+.bottomp *{
+    display:inline;
+}
+
+.bottomp {
+    margin: 5px 0px 0px 223px;
+}
+
+.smallLogo{
+    height: 15px;
+    margin: 0px;
+    align-content: center;
+}
+
+p{
+    margin: 0;
+}
+
+p .smallLogo {
+    margin-bottom: 5px;
+}

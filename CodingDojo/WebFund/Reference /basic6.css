@@ -1,0 +1,30 @@
+*{outline: 3px dotted red;}
+
+.container{
+    width: 75%;
+    background: grey;
+    margin: 0px auto;
+}
+
+.top{
+margin: 0px 0px 50% 0px;
+/* margin: top right left bottom */
+padding: 20px;
+display:inline-block;
+vertical-align: top;
+width: 200px;
+height: 200px;
+/* above are the basic 6,
+below are additional formatting elements */
+background:black;
+color:red;
+text-align: center;
+}
+
+/* NOTE: the "*" astrict is a wild card and selects everything in the page. */
+
+/* to center an element
+    margin: 0px (top and bottom) auto(right and left);
+     */
+
+

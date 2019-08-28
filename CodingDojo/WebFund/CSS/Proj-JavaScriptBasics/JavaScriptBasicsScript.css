@@ -1,0 +1,54 @@
+
+#background{
+    background:navy;
+    Width: 900px;
+}
+
+h1{
+    color: white;
+    background: red;
+    border-radius:10px;
+    margin: 10px;
+    padding: 20px;
+    text-indent: 5px;
+}
+
+
+
+#leftWindow{
+    background:teal;
+    color: aquamarine;
+    Border-radius: 10px;
+    display:inline-block;
+    margin:10px;
+    padding: 10px;
+    width: 200px;
+}
+
+li{
+    list-style-type: round;
+}
+
+#indent{
+    list-style: circle;
+}
+
+#main{
+    color: whitesmoke;
+    background: black;
+    Border-radius: 10Px;
+    padding: 20px;
+    width: 580px;
+    margin: 10px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#bottom{
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+
+}

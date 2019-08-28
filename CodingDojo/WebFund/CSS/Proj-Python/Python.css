@@ -1,0 +1,49 @@
+.container {
+    width: 970px;
+    height: 970px;
+    padding: 0px;
+    border: 0px;
+    margin: 0 auto;
+    background-image: url("img/python-BSD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container *{
+    opacity: .75;
+}
+
+.textSize {
+    width: 970px;
+    height: 40px;
+    padding: 0px 50px 0px 778px;
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+
+
+}
+
+.logoSearch {
+    width: 970px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    background: #245076;
+    vertical-align: top;
+    display: inline-block
+}
+
+.imgPython {
+    width: 378px;
+    padding: 0px 0px 0px 5px;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+    display: inline-block;
+
+}

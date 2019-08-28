@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hello World!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+    
+</head>
+<body style="background-color: rosybrown;">
+    <h1>Applicant Form</h1>
+    <image src="http://s3.amazonaws.com/General_V88/boomyeah/company_209/chapter_2135/handouts/chapter2135_3254_alligatormom.png" alt="Cute Aligator Picture"></image>
+
+    <br>
+    <p>Board Members</p>
+    <table>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone Number</th>
+                <th>email address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Smith</td>
+                <td>918-555-1212</td>
+                <td>john.smith@email.com</td>
+            </tr>
+            <tr>
+                <td>Pam</td>
+                <td>Smith</td>
+                <td>918-555-5555</td>
+                <td>pam.smith@email.com</td>
+            </tr>
+            <tr>
+                <td>Max</td>
+                <td>Headroom</td>
+                <td>918-666-1212</td>
+                <td>maxh@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form>
+        <p>Basic Information</p>
+        <label for="first_name">First Name:</label>
+        <input Type="text" id="first_name" name="first_name">
+        <label for="last_name">Last Name</label>
+        <input Type="text" id="last_name" name="last_name">
+        <br>
+        <label for="email"> Email:</label>
+        <input Type="text" id="email" name="email">
+        <Label type="password">Passgass</label>
+        <input type="password" id="password" name="password">
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id=female name="gender" value="female">
+        <label for ="other">Other</label>
+        <input type="radio" id=other name="gender" value="other">
+        <br>
+        <p>How did you hear about us?</p>
+        <select name="referal">
+            <option value="web site">Website</option>
+            <opiton value="advert">Advertisement</opiton>
+            <option Value="mailer">Mailer</option>
+        </select>
+        <br>
+        <p>What areas are you interesrted in?</p>
+        <label for="skydiving">skydiving</label>
+        <input type="checkbox" id="skydiving" name="activity" value="skydiving">
+        <label for "rockclimbing">Rock Climbing</label>
+        <input type="checkbox" id="Rock Climbing" name="activity" Value="rock climbing">
+        <label for ="napping">napping</label>
+        <input type="checkbox" id="napping" name="activity" value="napping">
+        <br>
+        <p>What other informatoin should we know about you?</p>
+        <textarea name="otherinfo"></textarea>
+        <br>
+        <input type="hidden" name="applicant" value="666">
+
+
+    </form>
+</body>
+</html>
+
+

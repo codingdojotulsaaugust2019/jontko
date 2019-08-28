@@ -1,0 +1,64 @@
+* {
+    background-color:lightgrey;
+    /* outline: 2px solid red; */
+}
+
+.container{
+}
+
+.header{
+    background: rgb(249,249,249)
+    margin: 10px;
+    height: 80px;
+
+}
+
+h1{
+    font-family: "Comic Sans MS";
+    margin: 5px 0px 0px 5px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+
+.master{ 
+    font-family: "Arial";
+    font-size: larger;
+    margin: 5px 0px 0px 50px;
+    /* margin: top right bottom left */
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+
+}
+
+.body{
+    width: 855px;
+    height: 900px;
+    /* background: rgb(111,89,100); */
+    background-image: radial-gradient(rgb(101,79,89), black);
+ 
+}
+
+img{
+    margin: 20px 0px 0px 15px;
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(192,192,192);
+}
+
+.about{
+    width: 377px;
+    height: 249px;
+    padding: 0;
+    border: 3px red dotted;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    
+
+}
